@@ -1,0 +1,21 @@
+{
+  "name": "chatroom_be",
+  "version": "1.0.0",
+  "repository": "git@github.com:GuskiS/chatroom_be.git",
+  "author": "GuskiS <edvards@lazdans.lv>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "6.2.0",
+    "winston": "3.1.0",
+    "ws": "6.1.2"
+  },
+  "devDependencies": {
+    "eslint": "5.12.1",
+    "nodemon": "1.18.9",
+    "prettier": "1.16.1"
+  }
+}
